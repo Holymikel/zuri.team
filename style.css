@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: grey;
+    background-image: url("https://vetsez.com/wp-content/uploads/2020/03/AdobeStock_291217289-copy.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+h5 {
+    color: red;
+}
+
+h4 {
+    top: 30%;
+}
