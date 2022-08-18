@@ -1,9 +1,58 @@
 body {
     text-align: center;
     background-color: grey;
-    background-image: url("https://vetsez.com/wp-content/uploads/2020/03/AdobeStock_291217289-copy.jpg");
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://www.bypeople.com/wp-content/uploads/2014/05/light-svg-background-image.jpg");
     font-size: large;
+}
+
+@font-face {
+  font-family: Averta;
+  src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+.homecontainer {
+  height: 800px;
+  background-image: url("");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sub-home {
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 800;
+  color: #514949;
+  margin-bottom: 36px;
+}
+.sub-home p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+}
+
+.main-logo {
+  margin: auto;
+  display: flex;
+  padding-top: 39px;
+  margin-bottom: 29px;
+} 
+
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: Averta, sans-serif;
+  /*overflow: hidden;*/
 }
 
 h5 {
